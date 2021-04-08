@@ -1,0 +1,42 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #010326;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    background-color: #BF6B04;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    transition: all 5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #a1c0d1;
+}
